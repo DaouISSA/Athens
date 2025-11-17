@@ -4,6 +4,34 @@
 #include <iostream>
 
 
+
+void print(int* tab, int seize) {
+    for (int i = 0; i < seize; i++) {
+        std::cout << tab[i] << std::endl;
+    }
+}
+
+int index_min(int* tab, int seize) {
+    int idx_min = 0;
+    for (int i = 0; i < seize; i++) {
+        if (tab[i] < tab[idx_min]) {
+            idx_min = i;
+        }
+    }
+    return idx_min;
+}
+
+        
+
+    void sort(int* tab, int seize) {
+        for(int i=0; i<)
+       
+
+}
+
+}
+
+
 int fibonacci(int n) {
     if (n == 0 or n == 1)
         return n;
